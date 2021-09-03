@@ -5868,6 +5868,27 @@ top.menu = [
         id: "swn",
         title: "SWN",
         items: []
+    },
+    {
+        id: "modern_horror",
+        title: "Modern Horror",
+        items: [
+            {
+                title: "Gothic-it-up!",
+                use: "",
+                sub_rolls: [
+                ],
+                main_rolls: [
+                    "modern_horror/gothic_motifs",
+                    "modern_horror/gothic_events",
+                    "modern_horror/gothic_locations",
+                    "modern_horror/gothic_buildings",
+                    "modern_horror/gothic_parts_buildings",
+                    "modern_horror/gothic_objects",
+                    "modern_horror/gothic_characters"
+                ]
+            }
+        ]
     }
 ];
 

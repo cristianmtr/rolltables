@@ -15,7 +15,7 @@ var SUBTABLE_TOKEN = "-->";
 var SUBTABLE_RESULT_MERGER = ":";
 var TABLE_CATEGORY_TOKEN = "/";
 
-var tables_to_add_as_menu = ["godbound", "swn"];
+var tables_to_add_as_menu = ["godbound", "swn", "modern_horror"];
 
 function setupTables() {
   for (k = 0; k < tables_to_add_as_menu.length; k++) {
@@ -233,7 +233,11 @@ function get_table(table) {
     case "swn":
         return top.swn;
         break;
+    case "modern_horror":
+        return top.modern_horror;
+        break;        
   }
+
 }
 
 function clearleft() {

@@ -15,6 +15,11 @@ Available at https://cristianmtr.github.io/rpg_tables/
 - subtable rolls
 - custom ranges in tables
 
+## TODOs
+
+- * tables subrolls. I want to roll all the tables under a category
+- fix not being able to have subrolls in separate file
+
 ## Collaboration & feedback
 
 Please submit any ideas & feedback you might have as a github issue [here](https://github.com/cristianmtr/rpg_tables/issues/new)
@@ -24,6 +29,51 @@ Feel free to have a look at the code and suggest improvements as well.
 Check issues and projects for possible ideas to start.
 
 If you want to add your own tables, look at this example: [Planescape NPC](https://github.com/cristianmtr/rpg_tables/blob/ad6a7ebf88f60ddd1986ad7d1b07bf42121e1cae/js/roll_menu.js#L2393)
+
+### Adding a new table
+
+- add a new file `roll_your_type.js`
+- add this file to `index.html`, like
+
+```html
+  <script src="js/roll_modern_horror.js"></script>
+```
+- add a case in `rolltables.js`
+
+```js
+    case "modern_horror":
+        return top.modern_horror;
+        break;   
+```
+- if it's got multiple rolls, you need to add it to `roll_menu.js`, like
+
+```js
+   {
+        id: "modern_horror",
+        title: "Modern Horror",
+        items: [
+            {
+                title: "Gothic All",
+                use: "",
+                sub_rolls: [
+                ],
+                main_rolls: [
+                    "modern_horror/gothic_motifs",
+                    "modern_horror/gothic_events",
+                    "modern_horror/gothic_locations",
+                    "modern_horror/gothic_buildings",
+                    "modern_horror/gothic_parts_buildings",
+                ]
+            }
+        ]
+    }
+```
+
+### Parse a text file
+
+Use 
+
+`python scripts\parse_file.py "my text.txt" gothic_characters "Gothic Characters"`
 
 ## Credits
 
