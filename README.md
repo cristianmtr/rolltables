@@ -69,11 +69,15 @@ If you want to add your own tables, look at this example: [Planescape NPC](https
     }
 ```
 
-### Parse a text file
+### Parse clipboard
+
+Copy a selection of lines.
 
 Use 
 
-`python scripts\parse_file.py "my text.txt" gothic_characters "Gothic Characters"`
+`python scripts\parse_clipboard.py gothic_characters "Gothic Characters"`
+
+Contents pasted back to clipboard.
 
 ## Credits
 

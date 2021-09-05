@@ -360,5 +360,304 @@ top.modern_horror = [
             "The Werewolf Horrified By Himself",
             "The Wicked Libertine"
         ]
-    }
+    }, {
+        "id": "alien_origin",
+        "title": "Aliens: Where did they come from?",
+        "roll": [
+            "Explorers or vanguards of a distant alien species.",
+            "Exiles and outcasts from their own kind, banished forever.",
+            "Natives of this solar system, but terribly different.",
+            "Soldiers in a war humanity cannot comprehend.",
+            "Colonists seeking to expand their species' influence.",
+            "Ineffable visitors, crystallizing from eldritch possibility."
+        ]
+    }, {
+        "id": "alien_human_pov",
+        "title": "Aliens: What do the they think of humans?",
+        "roll": [
+            "Humans are vermin to them, not even counted sentient.",
+            "Humans are meat tools, to be shaped and used as needed.",
+            "Humans are weeds, annoying pests and animate clutter.",
+            "Humans are hideously disgusting and loathsome.",
+            "Humans are fuel to be burnt for their needs or ambitions.",
+            "Humans are fine hosts for larvae or other offspring.",
+            "Humans are terrifying monsters and persecutors.",
+            "Humans are wondrous and utterly fascinating to them."
+        ]
+    }, {
+        "id": "alien_secret",
+        "title": "Aliens: Why aren't they known?",
+        "roll": [
+            "Their artifacts and structures melt away if untended.",
+            "Their great works were so long ago they have all vanished.",
+            "Their cities were in now-uninhabited parts of the world.",
+            "Some among them work to assiduously clean up evidence.",
+            "Some humans work to assiduously clean up evidence.",
+            "Their structures exist on a different wavelength of reality.",
+            "Their works are disguised as products of human builders.",
+            "Their works aren't even recognized as such by humans.",
+            "Their major works are all elsewhere in the solar system.",
+            "They perfectly disguised themselves as humans."
+        ]
+    }, {
+        "id": "alien_influence",
+        "title": "Aliens: What Did They Influence?",
+        "roll": [
+            "Wars. They started at least one great war for their ends.",
+            "Religion. One substantial religion results from their work.",
+            "Geography. Some region of earth is their handiwork.",
+            "Ideology. One ideology is secretly from their thinkers.",
+            "Government. One government was controlled by them.",
+            "City. One historical city was actually under their control.",
+            "Psychics. Psychic powers are a product of their influence.",
+            "Sorcery. Many sorcerers draw from their knowledge.",
+            "Art. A great artist or work of art was really their doing.",
+            "Animal life. Some animals are secretly under their control.",
+            "Climate. They changed or are changing it to suit them.",
+            "Astronomy. They altered the solar system to their needs."
+        ]
+    }, {
+        "id": "alien_great_work",
+        "title": "Aliens: Great Work",
+        "roll": [
+            "Biological control or influence codes in human DNA",
+            "A massive city somewhere in the polar ice",
+            "A number of eldritch weapons of similar appearance",
+            "An engine that maintains a vital part of earth's ecology",
+            "A major religious text formulated under their control",
+            "Secret psychological conditioning embedded in humanity",
+            "Automated servants created in a former age",
+            "A vast metropolis deep beneath the ocean",
+            "A hidden orbital station concealed from human sensors",
+            "A buried alien base beneath a major human city",
+            "A strange geographical feature created by their technology",
+            "A monstrous human-derived servitor race, now masterless",
+            "An ancient civilization actually built by them",
+            "A lost alien command center deep within a desert",
+            "An alien spacecraft hidden somewhere in the wilderness",
+            "A concealed global network of underground structures",
+            "A planet or moon they added to the solar system",
+            "A selection of alien technology kept by human heirs",
+            "Music which can control or influence human minds",
+            "A nefarious alien \"book\" containing mind-ruining truths"
+        ]
+    }, {
+        "id": "alien_influence_end",
+        "title": "Aliens: Why did the influence end?",
+        "roll": [
+            "A human group banded together to stop them.",
+            "Their human catspaws were destroyed by others.",
+            "They lost interest in meddling with humanity.",
+            "They accomplished their purpose, and had no other goal.",
+            "A factional dispute within their numbers stopped them.",
+            "Trouble with other aliens or entities distracted them.",
+            "They never really intended to influence mankind at all.",
+            "They ran out of something they needed to influence us.",
+            "Events spiraled beyond their control or wishes.",
+            "Their human minions ran wild and slipped their control.",
+            "An environmental change forced them to cease their acts.",
+            "It never has ended, it\u2019s just become more subtle."
+        ]
+    }, {
+        "id": "alien_fear",
+        "title": "Aliens: What do they fear?",
+        "roll": [
+            "Humans. They dread a humanity unified against them.",
+            "Outer gods. They have reason to dread their wrath.",
+            "Rivals. Some other aliens threaten their destruction.",
+            "Their own. Treachery from within threatens them all.",
+            "Nature. Some terrestrial quality is deadly to them.",
+            "Sorcerers. Some cult or arch-mage seeks their ruin."
+        ]
+    }, {
+        "id": "alien_involvement",
+        "title": "Aliens: How directly are they involved?",
+        "roll": ["They actually live within human communities.", "They live apart from humans, but go among them at times.", "They prefer to work through human agents and catspaws.", "Aggressively aloof, trying to avoid all human contact."]
+    }, {
+        "id": "alien_involvement",
+        "title": "Aliens: How directly are they involved?",
+        "roll": ["They actually live within human communities.", "They live apart from humans, but go among them at times.", "They prefer to work through human agents and catspaws.", "Aggressively aloof, trying to avoid all human contact."]
+    }, {
+        "id": "alien_control_method",
+        "title": "Aliens: How do they control their minions?",
+        "roll": [
+            "Bribery. The pay is far more than minions can earn.",
+            "Technology. Minions are mind-controlled or tech-slaved.",
+            "Addiction. They give something the minion must have.",
+            "Zeal. They have an ideology that attracts fanatical sorts.",
+            "Magic. Minions are bound with sorcerous rites.",
+            "Blackmail. They know things that minions want hidden.",
+            "Lies. They trick minions into thinking goals are their own.",
+            "Kin. Minions are relatives or heirs to ancestral service."
+        ]
+    }, {
+        "id": "alien_advantage",
+        "title": "Aliens: What is their advantage?",
+        "roll": [
+            "Stealth. They are extremely hard to detect.",
+            "Sorcery. They are versed in much black magic.",
+            "Disguise. They can look exactly like humans if needed.",
+            "Wealth. They have enormous amounts of money.",
+            "Distance. Their critical structures are very hard to get to.",
+            "Science. Their technology is useful, if ineffable.",
+            "Knowledge. They know what others have forgotten.",
+            "Spies. They\u2019re watching all the time.",
+            "Mind control. They can somehow control human brains.",
+            "Allies. They have minions in government or on the street."
+        ]
+    }, {
+        "id": "alien_admired_values",
+        "title": "Aliens: What values do they admire?",
+        "roll": [
+            "Physical strength and the crushing of their enemies.",
+            "Utter mercilessness is their guiding principle.",
+            "Spawning and reproduction of their kind is critical.",
+            "They extol the complete extermination of terrestrial life.",
+            "Consumption. To devour is to be great.",
+            "Pain. The infliction of torment is the key to rule.",
+            "Treachery and the ruin of all who trust in their words.",
+            "Debasement and defilement of those beneath them.",
+            "Transformation of life into useful tools for them.",
+            "Piety and the hideous worship of their gods.",
+            "Struggle, and the constant strife among their own kind.",
+            "Devotion and blind worship by those beneath them."
+        ]
+    }, {
+        "id": "alien_reason_here",
+        "title": "Aliens: Why are they here?",
+        "roll": [
+            "Here to mine some mineral vital to their survival.",
+            "They've always been here, merely very well hidden.",
+            "They've been beckoned in by human occultists as allies.",
+            "They've come in to seize control of a local cult.",
+            "They're trapped here by some ancient sorcery.",
+            "They need to remain close to an ancient life-support unit.",
+            "This location provides ideal spawning material for them.",
+            "They suck nourishment from places of eldritch power.",
+            "The place somehow reminds them of their lost home.",
+            "They're trying to build a way back home here.",
+            "They're trying to subvert local government with minions.",
+            "They're hiding here from some scourge of their kind.",
+            "They're recruiting a swarm of human slaves here.",
+            "They're cooperating with local government officials.",
+            "They're trying to open a path for more of their kind.",
+            "They serve in a local temple to an eldritch deity.",
+            "They're trying to wake up some ancient inhuman power.",
+            "They're guarding a vast army of their sleeping brethren.",
+            "They're waiting for a prophesied disaster to arrive here.",
+            "They're starting a covert alien colonization plan here."
+        ]
+    }, {
+        "id": "alien_values",
+        "title": "Aliens: What values do they despise?",
+        "roll": [
+            "Truthfulness, scorning words of excess honesty.",
+            "Pity, showing no forbearance to failure or uselessness.",
+            "Beauty, hating everything that humans find aesthetic.",
+            "Cooperation, each sullenly pursuing its own plans.",
+            "Adaptation. They change only their environment.",
+            "Weakness, where the weakest are food for the greater.",
+            "Directness, instead seeking to do all things secretly.",
+            "Generosity, moving their minions only by pain and fear.",
+            "Human technology, loathing human science and its fruits.",
+            "Piety, hating human religions and having none themselve",
+            "Passion, seeking cold and merciless logic in all things.",
+            "Change, seeking all things to be exactly as they were."
+        ]
+    },
+    {
+        "id": "alien_feeding",
+        "title": "Aliens: Feeding",
+        "roll": [
+            "Liquefies its food",
+            "Eats its food alive",
+            "Eats well-aged carrion",
+            "Eats it raw",
+            "Elaborately prepares its meals",
+            "\"It kills, but does not seem to eat\"",
+            "Tears prey to small pieces",
+            "Swallows prey whole",
+            "Often saves prey for later",
+            "Crushes food to paste"
+        ]
+    },
+    {
+        "id": "alien_call",
+        "title": "Aliens: Call or voice",
+        "roll": [
+            "\"Deep, bone-vibrating bass\"",
+            "Shrill and piping",
+            "Wet and slavering",
+            "Fluting and tonal",
+            "Chorus of many voices",
+            "Airy and breathy",
+            "Too high or low for human ears",
+            "Whispering like dry leaves",
+            "Metallic buzz",
+            "Crystalline chiming"
+        ]
+    },
+    {
+        "id": "alien_movement",
+        "title": "Aliens: Movement",
+        "roll": [
+            "Slow and deliberate",
+            "Skittering and nimble",
+            "\"Motionless, then quick\"",
+            "Serpentine smoothness",
+            "Staggering and lurching",
+            "Twitching and violent",
+            "As if to a strange dance",
+            "Through alien angles",
+            "Leaping and bounding",
+            "Crazed velocity"
+        ]
+    },
+    {
+        "id": "alien_hunting",
+        "title": "Aliens: hunting",
+        "roll": [
+            "Chases down prey",
+            "Stalks in ambush",
+            "Lies in wait",
+            "Lures prey in",
+            "Eats carrion and decay",
+            "Feeds on sick and weak",
+            "Pretends to be prey",
+            "Forces slaves to gather",
+            "Raises \"livestock\"",
+            "Parasitizes its prey"
+        ]
+    },
+    {
+        "id": "alien_abilities",
+        "title": "Alien: Abilities",
+        "roll": [
+            "By warping light they can turn invisible 1d4 times a day for up to an hour. The invisibility is broken by energetic motion",
+            "\"Their touch liquefies terrestrial animal tissue, adding +1d6 acid damage to physical attacks\"",
+            "Emit a hideous stench that leaves all victims in a 10 meter radius at -2 to hit for 1d6 minutes",
+            "\"Their touch is extremely hot, adding +1d6 fire damage to all physical attacks\"",
+            "\"A toxic stinger or claws; on a save vs. Physical Effect, the victim is -2 to hit for 1d6 minutes. Failure adds 2d6 damage.\"",
+            "\"They can move on solid surfaces in defiance of gravity, either through spatial warping or clinging limbs\"",
+            "They can take the shape of humans whose blood they taste",
+            "\"They fly with wings, gas sacs, or alien physiognomy, usually at a movement rate of 30 meters per movement action\"",
+            "\"They move in bursts of speed, gaining an additional round's action every even-numbered combat round\"",
+            "\"They burrow through earth at a rate of 3 meters per round, and rock at a tenth of that\"",
+            "They can target specific human body parts to mutilate and ruin on a successful hit and failed Physical Effect save",
+            "They are partially insubstantial; every non-magical hit has a 50% chance to do no harm at all",
+            "\"They can track their prey unerringly through scent, psychic emanations, or temporal perception of where they will be\"",
+            "\"They erupt with biting larvae when they die, inflicting 2d6 damage on all within 5 meters unless victims make an Evasion save\"",
+            "\"They inject an enslaving ichor in prey, forcing a Mental Effect save or the victim becomes their helpless thrall\"",
+            "\"They disrupt electronic devices by their presence, rendering them useless as long as the alien is within 30 meters\"",
+            "\"They possess titanic strength, gaining +4 on all damage rolls and able to lift and throw a car\"",
+            "\"They keep functioning 1d4 rounds after reaching zero hit points, as they refuse to die as terrestrial things do\"",
+            "They have an innate ability identical to one spell of level 1d4.",
+            "They can warp space so as to teleport a distance equal to their usual movement rate",
+            "\"They\u2019re temporally out of phase, so any damage or other hostile effect they suffer only occurs one round later\"",
+            "\"They fight with a blur of haste or multiple limbs, gaining three attacks per round\"",
+            "\"They vomit a noxious substance that inflicts 2d6 damage (1d6 Slaughter) on anyone in melee with them, once per 5 minutes\"",
+            "\"They have uncanny reflexes, and always win initiative over humans\"",
+            "\"They breathe whispers of unendurable horror, inflicting 1 Madness on all within 5 meters every round they live.\""
+        ]
+    }  
 ]
