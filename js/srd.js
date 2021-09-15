@@ -64,7 +64,8 @@ function loadleftdisplay(curr_table) {
       display_title = display_title + "</span>";
     }
     $("#left-display-list").append(
-      "<div class='list-item' listid='" +
+      "<div id='" + current.items[i].id +
+        "'class='list-item' listid='" +
         i +
         "' item='" +
         current.items[i].title +
