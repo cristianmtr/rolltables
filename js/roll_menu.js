@@ -5426,7 +5426,7 @@ top.menu = [
         id: "Wilderness",
         items: [
             {
-                title: "World",
+                title: "World (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5444,7 +5444,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Continent",
+                title: "Continent (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5462,7 +5462,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Nation",
+                title: "Nation (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5485,7 +5485,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Desert",
+                title: "Desert (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5515,7 +5515,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Desert, Flame-Scorched",
+                title: "Desert, Flame-Scorched (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5546,7 +5546,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Desert, Shadowy",
+                title: "Desert, Shadowy (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5567,7 +5567,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Forest",
+                title: "Forest (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5587,7 +5587,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Forest, Enchanted",
+                title: "Forest, Enchanted (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5605,7 +5605,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Forest, Haunted",
+                title: "Forest, Haunted (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5626,7 +5626,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Frozen Lands",
+                title: "Frozen Lands (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5645,7 +5645,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Grasslands, Temperate",
+                title: "Grasslands, Temperate (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5668,7 +5668,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Grasslands, Tropical",
+                title: "Grasslands, Tropical (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5692,7 +5692,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Jungle",
+                title: "Jungle (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5714,7 +5714,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Mountains",
+                title: "Mountains (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5739,7 +5739,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Plains",
+                title: "Plains (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5759,7 +5759,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Swamp",
+                title: "Swamp (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5772,7 +5772,7 @@ top.menu = [
                 sub_rolls: [],
             },
             {
-                title: "Underdark",
+                title: "Underdark (Multi)",
                 use:
                     "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
                 main_rolls: [
@@ -5795,7 +5795,7 @@ top.menu = [
         id: "blades_in_the_dark",
         items: [
             {
-                title: "Tools in Duskvol",
+                title: "Tools in Duskvol (Multi)",
                 use: "Random tools in Duskvol",
                 main_rolls: [],
                 sub_rolls: [
@@ -5803,7 +5803,7 @@ top.menu = [
                 ]
             },
             {
-                title: "Jobs in Duskvol",
+                title: "Jobs in Duskvol (Multi)",
                 use: "Roll on this to generate a job for each of the crew types",
                 main_rolls: [
                     "blades/assassins",
@@ -5816,7 +5816,7 @@ top.menu = [
                 sub_rolls: []
             },
             {
-                title: "Duskvol street description",
+                title: "Duskvol street description (Multi)",
                 use: "Roll on this to generate a street in Duskvol and a set of 3d6 buildings",
                 main_rolls: [
                     "blades/streetmood",
@@ -5834,7 +5834,7 @@ top.menu = [
                 ]
             },
             {
-                title: "Blades in Sigil (Planescape)",
+                title: "Blades in Sigil (Planescape) (Multi)",
                 use: "Score Generator for Sigil, the City of Doors in D&D’s Planescape setting.",
                 main_rolls: [
                     "wilderness/race_plane_of_origin", //
@@ -5869,7 +5869,7 @@ top.menu = [
         title: "SWN",
         items: [
             {
-                "title": "Patron (SWN)",
+                "title": "Patron (SWN) (Multi)",
                 "use": "",
                 "sub_rolls": [],
                 "main_rolls": [
@@ -5882,7 +5882,7 @@ top.menu = [
                 ]
             },
             {
-                "title": "NPC (SWN)",
+                "title": "NPC (SWN) (Multi)",
                 "use": "",
                 "sub_rolls": [],
                 "main_rolls": [
@@ -5895,7 +5895,7 @@ top.menu = [
                 ]
             },
             {
-                "title": "Urban Encounter (SWN)",
+                "title": "Urban Encounter (SWN) (Multi)",
                 "use": "",
                 "sub_rolls": [],
                 "main_rolls": [
@@ -5906,7 +5906,20 @@ top.menu = [
                     "swn/urban_encounters_antagonist",
                     "swn/urban_encounters_features",
                 ]
-            }
+            },
+            {
+                "title": "Wilderness Encounter (SWN) (Multi)",
+                "use": "",
+                "sub_rolls": [],
+                "main_rolls": [
+                    "swn/wilderness_encounter_range",
+                    "swn/wilderness_encounter_weather",
+                    "swn/wilderness_encounter_nature",
+                    "swn/wilderness_encounter_friendlies",
+                    "swn/wilderness_encounter_hostiles",
+                    "swn/wilderness_encounter_features"
+                ]
+            },
         ],
     },
     {
@@ -5914,7 +5927,7 @@ top.menu = [
         title: "Modern Horror",
         items: [
             {
-                title: "Gothic Horror Elements",
+                title: "Gothic Horror Elements (Multi)",
                 use: "",
                 sub_rolls: [
                 ],
@@ -5929,7 +5942,7 @@ top.menu = [
                 ]
             },
             {
-                title: "Aliens (Silent Legion)",
+                title: "Aliens (Silent Legion) (Multi)",
                 use: "",
                 sub_rolls: [
                 ],
