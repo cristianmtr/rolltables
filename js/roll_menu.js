@@ -5867,7 +5867,21 @@ top.menu = [
     {
         id: "swn",
         title: "SWN",
-        items: []
+        items: [
+            {
+                "title": "Patron (SWN)",
+                "use": "",
+                "sub_rolls": [],
+                "main_rolls": [
+                    "swn/swn_trust",
+                    "swn/swn_challenges",
+                    "swn/swn_countervail",
+                    "swn/swn_patron_eager",
+                    "swn/swn_patron_rewards",
+                    "swn/swn_patron_complications",
+                ]
+            }
+        ]
     },
     {
         id: "modern_horror",
@@ -5919,23 +5933,3 @@ top.menu = [
     }
 ];
 
-
-"modern_horror/alien_origin"
-"modern_horror/alien_human_pov"
-"modern_horror/alien_secret"
-"modern_horror/alien_influence"
-"modern_horror/alien_great_work"
-"modern_horror/alien_influence_end"
-"modern_horror/alien_fear"
-"modern_horror/alien_involvement"
-"modern_horror/alien_involvement"
-"modern_horror/alien_control_method"
-"modern_horror/alien_advantage"
-"modern_horror/alien_admired_values"
-"modern_horror/alien_reason_here"
-"modern_horror/alien_values"
-"modern_horror/alien_feeding"
-"modern_horror/alien_call"
-"modern_horror/alien_movement"
-"modern_horror/alien_hunting"
-"modern_horror/alien_abilities"
