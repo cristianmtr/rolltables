@@ -6,7 +6,7 @@ import pyperclip
 try:
 
     lines = pyperclip.paste().split("\n")
-    lines = [l.strip() for l in lines]
+    lines = [l.strip().strip(',"') for l in lines]
 
     obj = {
         "id": sys.argv[1],

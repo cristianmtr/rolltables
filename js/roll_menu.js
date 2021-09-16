@@ -5880,8 +5880,34 @@ top.menu = [
                     "swn/swn_patron_rewards",
                     "swn/swn_patron_complications",
                 ]
+            },
+            {
+                "title": "NPC (SWN)",
+                "use": "",
+                "sub_rolls": [],
+                "main_rolls": [
+                    "swn/npc_background",
+                    "swn/npc_role",
+                    "swn/npc_problem",
+                    "swn/npc_age",
+                    "swn/npc_desire",
+                    "swn/npc_trait",
+                ]
+            },
+            {
+                "title": "Urban Encounter (SWN)",
+                "use": "",
+                "sub_rolls": [],
+                "main_rolls": [
+                    "swn/urban_encounters_about",
+                    "swn/urban_encounters_venue",
+                    "swn/urban_encounters_involvement",
+                    "swn/urban_encounters_nature",
+                    "swn/urban_encounters_antagonist",
+                    "swn/urban_encounters_features",
+                ]
             }
-        ]
+        ],
     },
     {
         id: "modern_horror",

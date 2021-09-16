@@ -323,97 +323,289 @@ top.swn = [
         "id": "swn_trust",
         "title": "Patron Trustworthiness (SWN)",
         "roll": [
-            "\"They intend to totally screw the PCs\",",
-            "\"They won't pay unless forced to do so\",",
-            "\"They'll pay slowly or reluctantly\",",
-            "\"They'll pay, but discount for mistakes\",",
-            "\"They'll pay without quibbling\",",
-            "\"They'll pay more than they promised\""
+            "They intend to totally screw the PCs",
+            "They won't pay unless forced to do so",
+            "They'll pay slowly or reluctantly",
+            "They'll pay, but discount for mistakes",
+            "They'll pay without quibbling",
+            "They'll pay more than they promised"
         ]
     },
     {
         "id": "swn_challenges",
         "title": "Patron Challenge (SWN)",
         "roll": [
-            "\"Kill somebody who might deserve it\",",
-            "\"Kidnap someone dangerous\",",
-            "\"Steal a well-guarded object\",",
-            "\"Arson or sabotage on a place\",",
-            "\"Get proof of some misdeed\",",
-            "\"Protect someone from an immediate threat\",",
-            "\"Transport someone through danger\",",
-            "\"Guard an object being transported\""
+            "Kill somebody who might deserve it",
+            "Kidnap someone dangerous",
+            "Steal a well-guarded object",
+            "Arson or sabotage on a place",
+            "Get proof of some misdeed",
+            "Protect someone from an immediate threat",
+            "Transport someone through danger",
+            "Guard an object being transported"
         ]
     },
     {
         "id": "swn_countervail",
         "title": "Patron Countervailing Force (SWN)",
         "roll": [
-            "\"A treacherous employer or subordinate\",",
-            "\"An open and known enemy of the patron\",",
-            "\"Official governmental meddling\",",
-            "\"An unknown rival of the patron\",",
-            "\"The macguffin itself opposes them\",",
-            "\"Very short time frame allowed\",",
-            "\"The job is spectacularly illegal\",",
-            "\"A participant would profit by their failure\",",
-            "\"The patron is badly wrong about a thing\",",
-            "\"The locals are against the patron\""
+            "A treacherous employer or subordinate",
+            "An open and known enemy of the patron",
+            "Official governmental meddling",
+            "An unknown rival of the patron",
+            "The macguffin itself opposes them",
+            "Very short time frame allowed",
+            "The job is spectacularly illegal",
+            "A participant would profit by their failure",
+            "The patron is badly wrong about a thing",
+            "The locals are against the patron"
         ]
     },
     {
         "id": "swn_patron_eager",
         "title": "Patron Eagerness (SWN)",
         "roll": [
-            "\"Cautious, but can be convinced to hire\",",
-            "\"Willing to promise standard rates\",",
-            "\"Eager, willing to offer a bonus\",",
-            "\"Desperate, might offer what they can't pay\""
+            "Cautious, but can be convinced to hire",
+            "Willing to promise standard rates",
+            "Eager, willing to offer a bonus",
+            "Desperate, might offer what they can't pay"
         ]
     },
     {
         "id": "swn_patron_rewards",
         "title": "Patron rewards (SWN)",
         "roll": [
-            "\"Government official favors owed\",",
-            "\"Property in the area\",",
-            "\"An item very valuable on another world\",",
-            "\"Pretech mod components\",",
-            "\"Useful pretech artifact\",",
-            "\"Information the PCs need\",",
-            "\"Membership in a powerful group\",",
-            "\"Black market access\",",
-            "\"Use of restricted facilities or shipyards\",",
-            "\"Shares in a profitable business\",",
-            "\"Maps to a hidden or guarded treasure\",",
-            "\"Illegal but valuable weapons or gear\""
+            "Government official favors owed",
+            "Property in the area",
+            "An item very valuable on another world",
+            "Pretech mod components",
+            "Useful pretech artifact",
+            "Information the PCs need",
+            "Membership in a powerful group",
+            "Black market access",
+            "Use of restricted facilities or shipyards",
+            "Shares in a profitable business",
+            "Maps to a hidden or guarded treasure",
+            "Illegal but valuable weapons or gear"
         ]
     },
     {
         "id": "swn_patron_complications",
         "title": "Patron complications (SWN)",
         "roll": [
-            "\"An ambush is laid somewhere\",",
-            "\"PC involvement is leaked to the enemy\",",
-            "\"The patron gives faulty aid somehow\",",
-            "\"Failing would be extremely unhealthy\",",
-            "\"The job IDs them as allies of a local faction\",",
-            "\"The macguffin is physically dangerous\",",
-            "\"An important location is hard to get into\",",
-            "\"Succeeding would be morally distasteful\",",
-            "\"A supposed ally is very unhelpful or stupid\",",
-            "\"The patron badly misunderstood the PCs\",",
-            "\"The job changes suddenly partway through\",",
-            "\"An unexpected troublemaker is involved\",",
-            "\"Critical gear will fail partway through\",",
-            "\"An unrelated accident complicates things\",",
-            "\"Payment comes in a hard-to-handle form\",",
-            "\"Someone is turning traitor on the patron\",",
-            "\"A critical element has suddenly moved\",",
-            "\"Payment is in avidly-pursued hot goods\",",
-            "\"The true goal is a subsidiary part of the job\",",
-            "\"No complications; it's just as it seems to be\""
+            "An ambush is laid somewhere",
+            "PC involvement is leaked to the enemy",
+            "The patron gives faulty aid somehow",
+            "Failing would be extremely unhealthy",
+            "The job IDs them as allies of a local faction",
+            "The macguffin is physically dangerous",
+            "An important location is hard to get into",
+            "Succeeding would be morally distasteful",
+            "A supposed ally is very unhelpful or stupid",
+            "The patron badly misunderstood the PCs",
+            "The job changes suddenly partway through",
+            "An unexpected troublemaker is involved",
+            "Critical gear will fail partway through",
+            "An unrelated accident complicates things",
+            "Payment comes in a hard-to-handle form",
+            "Someone is turning traitor on the patron",
+            "A critical element has suddenly moved",
+            "Payment is in avidly-pursued hot goods",
+            "The true goal is a subsidiary part of the job",
+            "No complications; it's just as it seems to be"
         ]
     },
-    
+    {
+        "id": "npc_background",
+        "title": "NPC Background (SWN)",
+        "roll": [
+            "The local underclass or poorest natives",
+            "Common laborers or cube workers",
+            "Aspiring burgeouise or upper class",
+            "The elite of this society",
+            "Minority or foreigners -->swn/npc_background",
+            "Offworlders or exotics -->swn/npc_background",
+        ]
+    },
+    {
+        "id": "npc_role",
+        "title": "NPC Role (SWN)",
+        "roll": [
+            "Criminal, thug, thief, swindler",
+            "Menial, cleaner, retail worker, servant",
+            "Unskilled heavy leabor, porter, construction",
+            "Skilled trade, electrician, mechanic, pilot",
+            "Idea worker, programmer, writer",
+            "Merchant, business owner, trader, banker",
+            "Official, bureaucrat, courtier, clerk",
+            "Military, soldier, enforcer, law officer"
+        ]
+    },
+    {
+        "id": "npc_problem",
+        "title": "NPC Problem (SWN)",
+        "roll": [
+            "They have significant debt or money woes",
+            "A loved one is in trouble -- -->swn/npc_problem",
+            "Romantic failure with a desired person",
+            "Drug or behavioral addiction",
+            "Their superior dislikes or resents them",
+            "They have a persistent sickness",
+            "They hate their job or life situation",
+            "Someone dangerous is targeting them",
+            "They're pursuing a disastrous purpose",
+            "They have no problems worth mentioning"
+        ]
+    },
+    {
+        "id": "npc_age",
+        "title": "NPC Age (SWN)",
+        "roll": [
+            "Unusually young or old for their role",
+            "Young adult",
+            "Mature prime",
+            "Middle-aged or elderly"
+        ]
+    },
+    {
+        "id": "npc_desire",
+        "title": "NPC Desires (SWN)",
+        "roll": [
+            "They want a particular romantic partner",
+            "They want money for them or a loved one",
+            "They want a promotion in their job",
+            "They want answers about a past trauma",
+            "They want revenge on an enemy",
+            "They want to help a beleagured friend",
+            "They want an entirely different job",
+            "They want protection from an enemy",
+            "They want to leave their current life",
+            "They want fame and glory",
+            "They want power over those around them",
+            "They have everything they want from life"
+        ]
+    },
+    {
+        "id": "npc_trait",
+        "title": "NPC Trait (SWN)",
+        "roll": [
+            "Ambition",
+            "Avarice",
+            "Bitterness",
+            "Courage",
+            "Cowardice",
+            "Curiosity",
+            "Deceitfulness",
+            "Determination",
+            "Devotion to a cause",
+            "Filiality",
+            "Hatred",
+            "Honesty",
+            "Hopefulness",
+            "Love of a person",
+            "Nihilism",
+            "Paternalism",
+            "Pessimism",
+            "Protectiveness",
+            "Resentment",
+            "Shame"
+        ]
+    },
+    {
+        "id": "urban_encounters_about",
+        "title": "Urban Encounter About (SWN)",
+        "roll": [
+            "Money, extortion, payment due, debts",
+            "Respect, submission to social authority",
+            "Grudges, ethnic resentment, gang payback",
+            "Politics, religion, or other ideology"
+        ]
+    },
+    {
+        "id": "urban_encounters_venue",
+        "title": "Urban Encounter Venue (SWN)",
+        "roll": [
+            "In the middle of the street",
+            "In a public plaza",
+            "Down a side alley",
+            "Inside a local business",
+            "Next to or in a public park",
+            "At a mass-transit station"
+        ]
+    },
+    {
+        "id": "urban_encounters_involvement",
+        "title": "Urban Encounter Involvement (SWN)",
+        "roll": [
+            "A sympathetic participant appeals to them",
+            "Ways around it are all dangerous/blocked",
+            "It happens immediately around them",
+            "A valuable thing looks snatchable amid it",
+            "A participant offers a reward for help",
+            "Someone mistakenly involves the PCs in it",
+            "The seeming way out just leads deeper in",
+            "Responsibility is somehow pinned on them"
+        ]
+    },
+    {
+        "id": "urban_encounters_nature",
+        "title": "Urban Encounter Nature (SWN)",
+        "roll": [
+            "A parade or festival is being disrupted",
+            "Innocents are being assaulted",
+            "An establishment is being robbed",
+            "A disturbance over local politics happens",
+            "Someone is being blamed for something",
+            "Fires or building collapses are happening",
+            "A medical emergency is happening",
+            "Someone's trying to cheat the PCs",
+            "A vehicle accident is happening",
+            "A religious ceremony is being disrupted"
+        ]
+    },
+    {
+        "id": "urban_encounters_antagonist",
+        "title": "Urban Encounter Antagonist (SWN)",
+        "roll": [
+            "A local bully and their thugs",
+            "A ruthless political boss and their zealots",
+            "Violent criminals",
+            "Religious fanatics",
+            "A blisteringly obnoxious offworlder",
+            "Corrupt or over-strict government official",
+            "A mob of intoxicated locals",
+            "A ranting demagogue and their followers",
+            "A stupidly bull-headed local grandee",
+            "A very capable assassin or strong-arm",
+            "A self-centered local scion of power",
+            "A confused foreigner or backwoodsman"
+        ]
+    },
+    {
+        "id": "urban_encounters_features",
+        "title": "Urban Encounter Features (SWN)",
+        "roll": [
+            "Heavy traffic running through the place",
+            "Music blaring at deafening volumes",
+            "Two groups present that detest each other",
+            "Large delivery taking place right there",
+            "Swarm of schoolkids or feral youth",
+            "Insistent soapbox preacher here",
+            "Several pickpockets working the crowd",
+            "A kiosk is tipping over and spilling things",
+            "Streetlights are out or visibility is low",
+            "A cop patrol is here and reluctant to act",
+            "PC-hostile reporters are recording here",
+            "Someone's trying to sell something to PCs",
+            "Feral dogs or other animals crowd here",
+            "Unrelated activists are protesting here",
+            "Street kids are trying to steal from the PCs",
+            "GPS maps are dangerously wrong here",
+            "Downed power lines are a danger here",
+            "Numerous open manholes and utility holes",
+            "The street's blockaded by something",
+            "Crowds so thick one can barely move"
+        ]
+    }    
+
 ]
